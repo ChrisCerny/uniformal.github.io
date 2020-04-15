@@ -11,6 +11,7 @@ Furthermore, a working installation of `sbt` is required.
 For interactive development [IntelliJ (community edition)](https://www.jetbrains.com/idea/) with an installed Scala plugin allows to create a new SBT-based project from the src project location that contains the `build.sbt` file. 
 The sbt importer of IntelliJ should work out of the box.
 IntelliJ settings are not supposed to be comitted. Any changes should be made within build.sbt and IntelliJ SBT projects be refreshed.
+Using the sbt shell for imports and building can cause faulty behavior of IntelliJ and prevent project building altogether. It is adviced to uncheck those options in the settings, under "Build, Execution, Deployment/Build Tools/sbt".
 
 ### Using Eclipse
 
